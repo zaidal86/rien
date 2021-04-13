@@ -39,20 +39,12 @@ function point() {
         console.log('Total de Points sur Jax : ' + tg);
     } else {
         if (yolo === 9) {
-            vip(pseudo[yolo], region[1], function (str) {
-                console.log(str);
-                tg = tg + str;
-            })
-
+            vip(pseudo[yolo], region[1], function (str) { console.log(str); tg = tg + str; })
             yolo++;
             setTimeout(point, 1 * 1000);
         } else {
 
-            vip(pseudo[yolo], region[0], function (str) {
-                console.log(str);
-                tg = tg + str;
-            })
-
+            vip(pseudo[yolo], region[0], function (str) { console.log(str); tg = tg + str; })
             yolo++;
             setTimeout(point, 1 * 1000);
         };
