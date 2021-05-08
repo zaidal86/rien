@@ -1,5 +1,5 @@
 const request = require('request');
-const api_key = 'RGAPI-b1af5991-8c31-4776-8a8a-4453881e6961';
+const api_key = '';
 const region = ['euw1', 'ru']
 const pseudo = ['YasuoJaxGodLike', 'Hentai Fiora', 'TheK%C3%AEngOfHell', 'QLF YasuoJax', 'TATO%20M%C3%84LE%20ALPHA', 'JeTeMangeEnKebab', 'CompteSouterrain', 'TheKlondes', 'LeB%C3%A9b%C3%A9DeMichel', 'meinpower'];
 
